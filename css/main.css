@@ -8,12 +8,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-	flex-flow: row wrap;
+
 }
 
 .container{
 	max-width: 1200px;
-	margin: 0 auto;
+  width: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -28,33 +28,27 @@ h4 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
-h1 {
-	font-size: 1.875em;
-}
-h2 {
-    font-size: 1.5em;
-}
-h3 {
-	font-size: 1.125em;
-}
-h4 {
-	font-size: 1.438em;
-}
+
 
 p {
 	font-size: 0.875em;
 	line-height: 21px;
-  padding: 0 30px;
+}
+
+ul {
+    margin: 0;
 }
 
 /*The widths are in a percentage!*/
 header {
 	width: 100%;
+  text-align: center;
 	border-bottom: 3px solid #77a466;
 	display: flex;
-	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
+  flex-flow: row wrap;
+
 }
 
 header h1 {
@@ -62,6 +56,7 @@ header h1 {
 	margin: 0;
 	padding: 38px 20px 20px 20px;
 	width: 100%;
+  border-bottom: 3px solid #77a466;
 }
 header h1 span {
 	color: #77a466;
@@ -97,14 +92,13 @@ header nav ul li a{
 }
 
 
-}
+
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 
 
-}
 .main-title h3 {
 	text-align: left;
 	padding: 5px 0;
@@ -192,6 +186,7 @@ width: 30%;
 padding: 0;
 border-bottom: none;
 text-align: left;
+}
 
 header nav {
         width: 40%;
